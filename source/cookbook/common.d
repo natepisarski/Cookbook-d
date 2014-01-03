@@ -4,7 +4,6 @@
  */
 
 module cookbook.common;
-import std.stdio;
 
 pure T[] append(T)(T[] l, T t){
   T[] r;
