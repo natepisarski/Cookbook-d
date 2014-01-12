@@ -1,9 +1,10 @@
 {
 	"name": "cookbook",
-	"description": "A general library for D.",
+	"description": "A port of cookbook-hs to D.",
 	"copyright": "Copyright © 2014, nate",
 	"authors": ["nate"],
 	"license": "BSD",
+	"version": "1.0.0.0",
 	"dependencies": {
 	}
 }
