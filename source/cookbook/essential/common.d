@@ -3,7 +3,7 @@
  *            Short and common functions beneficial to all and widely applicable.
  */
 
-module cookbook.common;
+module cookbook.essential.common;
 
 pure T[] append(T)(T[] l, T t){
   T[] r;

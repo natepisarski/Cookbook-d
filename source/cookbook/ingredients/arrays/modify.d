@@ -3,9 +3,9 @@
  * Pure and functional library for modifying the contents of arrays.
  */
 
-module cookbook.modify;
-import cookbook.common;
-import cookbook.access;
+module cookbook.ingredients.arrays.modify;
+import cookbook.essential.common;
+import cookbook.ingredients.arrays.access;
 
 pure T[] rev(T)(T[] data){
   if(data.length == 0) return [];

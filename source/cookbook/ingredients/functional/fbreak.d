@@ -6,8 +6,8 @@
  * a list or array is put into Breaks.
  */
 
-module cookbook.fbreak;
-import cookbook.common;
+module cookbook.ingredients.functional.fbreak;
+import cookbook.essential.common;
 
 pure T[] filterBreak(alias pred,T)(T[] data){
   T[] ret;

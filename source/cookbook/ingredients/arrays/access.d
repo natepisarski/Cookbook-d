@@ -4,10 +4,10 @@
  * This library uses and introduces only completely pure functions.
  */
 
-module cookbook.access;
+module cookbook.ingredients.arrays.access;
 
-import cookbook.common;
-import cookbook.fbreak;
+import cookbook.essential.common;
+import cookbook.ingredients.functional.fbreak;
 
 pure bool elem(T)(T[] data, T item){
   foreach(it; data)

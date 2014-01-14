@@ -1,6 +1,5 @@
-module cookbook.list;
-import cookbook.common;
-import std.stdio;
+module cookbook.essential.list;
+import cookbook.essential.common;
 
 struct list(T){
   T item;
@@ -77,21 +76,10 @@ struct list(T){
     item = fn(item);
     if(next != null)
       next.map!fn;
-    else 
-      writeln("next is null at value ",item);//dbg
   }
 
   void filter(alias fn)(){
     list!T rList;
     return rList.append(filter!(fn,T)(rList.flatten()));
   }
-}
-
-int m2(int x){
-  return x*2;
-}
-
-int print(int x){
-  writeln("",x);
-  return x;
 }
